@@ -21,7 +21,7 @@
             </div>
 
             <div class="row mb-3 d-flex justify-content-center">
-                <div class="card1 col-6 me-lg-4 pt-2 shadow bg-white rounded-2" style="width: 350px; height: 300px; ">
+                <div class="col-6 me-lg-4 pt-2 shadow bg-white rounded-2" style="width: 350px; height: 300px; ">
                     <h3 class="text-center border-bottom border-3">MEMBERS</h3>
                     <div class="row">
                         <img src="resources/20842314_6245696.jpg" class="w-100 h-50">
