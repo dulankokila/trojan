@@ -1,1 +1,108 @@
-fsfdds
+:root {
+
+    --color-blue-400: #24424d;
+    --color-blue-300: #5b8291;
+    --color-blue-200: #98dad9;
+    --color-blue-100: #eaebed;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Global Styles */
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+    padding: 4px 10px;
+    border: none;
+    font-weight: bold;
+    background: #9b4545;
+}
+
+button:hover {
+    cursor: pointer;
+    transition-duration: 550ms;
+    color: #ffffff;
+    background-color: #24424d;
+}
+/* Global Styles */
+
+
+
+@media (max-width:769px) {}
+
+@media (max-width:576px) {
+
+    /* Global Styles */
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 36px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    h5 {
+        font-size: 24px;
+    }
+
+    h6 {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+}
