@@ -12,29 +12,44 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="signin-home overflow-hidden">
 
-    <div class="container-fluid d-flex vh-100">
+    <div class="d-flex flex-column justify-content-center align-items-center h-100 ">
 
-        <div class="col-12 d-flex justify-content-center align-items-center bg-secondary">
+        <div class="col-11 col-md-10 col-lg-9 signin-home-div ">
 
-            <div class="row">
+            <div class="row w-100 h-100 rounded rounded-4">
 
-<div class="col-11 col-md-10 col-lg-9 d-flex flex-column flex-md-row">
+                <div class="d-none d-md-flex d-lg-flex flex-row col-12 col-md-5 col-lg-6 signin-img-div p-3"
+                    style="background-image: url(resources/img/blog2.jpg);">
+                    <p>ABC</p>
+                </div>
 
-    <div class="bg-danger">dd</div>
-    <div class="bg-warning">dd</div>
+                <div class="d-flex flex-column justify-content-center col-12 col-md-7 col-lg-6 p-3 signin-text-div">
 
-</div>
+                    <label>Email or Username</label>
+                    <input type="text" class="mb-3">
+                    <label>Password</label>
+                    <input type="password" class="mb-3">
+                    <div class="d-flex mb-3 w-100">
+                        <input type="checkbox" class="p-2">
+                        <label class="ms-1">Remember me</label>
+                    </div>
+
+                    <div class="d-flex flex-column align-items-center justify-content-between mb-3 w-100">
+                        <button class="btn signin-btn mb-2 mb-md-1">Sign In</button>
+                        <a href="signup.html"><span style="font-weight: normal;">Don't have an Account ?</span><span
+                                style="color: #8500a7;"> Create Account</span></a>
+                    </div>
+
+                </div>
 
             </div>
 
         </div>
 
+
     </div>
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
